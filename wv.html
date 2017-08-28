@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="wv.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="wv.js"></script>
+<body>
+
+<h1>Wikipedia Viewer</h1>
+<div id="rnd" target="_blank" onClick='window.open("https://en.wikipedia.org/wiki/Special:Random","_blank");'><p id="paragraphRnd">Random Wikipedia Article</p></div>
+<h1>Search</h1>
+
+<div class="test" id="testid">Click for search</div>
+
+  <input id="SearchQueryId" type="text" name="search" placeholder="Search..." onkeypress="handleKeyPress(event)">
+
+<h1 id="hits"  style="display:none;" class="answer_list" >Best Hits</h1>
+</body>
+</html>
+
